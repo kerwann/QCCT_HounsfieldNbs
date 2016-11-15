@@ -1,0 +1,7 @@
+((*- extends 'article2.tplx' -*))
+% Disable input cells
+((* block input_group *))
+((* endblock input_group *))
+% Block markdown cells
+{% block markdowncell -%}
+{% endblock markdowncell %}
